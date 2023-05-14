@@ -1,0 +1,8 @@
+@export var Nome : String  = "Gustavo"
+@export var Idade : String = "18"
+@export var Idade_mae : int = 39
+
+func _ready():
+	print("Olá! Meu nome é "  + Nome + " e" +  "\n" + "tenho " + Idade + " anos de idade!")
+	print("Minha mãe tem " + str(Idade_mae) + " anos de idade!" + "\n" + "Ela é " + str(Idade_mae - int(Idade)) + " anos mais velha que eu!" )
+	pass
